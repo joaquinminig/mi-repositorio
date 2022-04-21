@@ -38,7 +38,7 @@ nav {
     border-left: 0px;
     border-right: 0px;
 }
-.a:hover{
+nav li:hover{
     transform: scale(1.5, 1.5);   
 }
 .resto{
