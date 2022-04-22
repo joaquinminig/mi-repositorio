@@ -103,6 +103,7 @@ nav li:hover{
     animation-duration: 3s;
     animation-name: carta;
     animation-iteration-count: 1;
+    color: white;
 }
 .opciones {
     display: grid;
