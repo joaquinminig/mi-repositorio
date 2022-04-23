@@ -257,6 +257,14 @@ nav li:hover{
     .galeria img:hover {
         transform: translate(10px, 10px)
     }
+    .opciones {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 10px;
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count: 1;
+    }
     .parrafo-red {
             margin-top: 20px;
             margin-left: 10px;
@@ -272,7 +280,7 @@ nav li:hover{
         bottom: 10px;
     }
     .footer {
-            background-color: grey;
+            background-color: rgb(180, 64, 64);
             position: fixed;
             bottom: 0;
             width: 92%;
@@ -281,9 +289,13 @@ nav li:hover{
         }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
     .a:hover {
         transform: scale(1.1, 1.1);
+    }
+    .video {
+        width: 95%;
+        border: solid black;
     }
     .galeria {
         margin-left: 60px;
@@ -307,6 +319,7 @@ nav li:hover{
         font-family: 'Bebas Neue';
         position: relative;
         bottom: 10px;
+        margin-top: 15px;
     }
 
     .opciones {
